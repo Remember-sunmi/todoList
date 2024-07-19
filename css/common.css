@@ -1,0 +1,15 @@
+/* 폰트 */
+
+/* consola */
+@font-face {
+    font-family: 'consola' ;
+    src: url(../fonts/consola.woff) format('woff');
+    src: url(../fonts/consola.woff2) format('woff2');
+}
+
+/* pretendard */
+@font-face {
+    font-family: 'pretendard';
+    src: url(../fonts/Pretendard-Regular.woff) format('woff');
+    src: url(../fonts/Pretendard-Regular.woff2) format('woff2');
+}

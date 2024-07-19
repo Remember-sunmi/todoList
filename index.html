@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="./css/import.css">
+</head>
+
+<body>
+    <div id="clock"></div>
+    <script src="./js/clock.js"></script>
+
+    <div class="todo-container">
+        <div class="todo">
+            <h1>TO DO LIST <img src="./img/pencil_icon.png" alt="pencil_icon"></h1>
+
+            <div class="inputField">
+                <input type="text" placeholder="할일 추가하기" id="task-input">
+                <button id="add-btn">ADD</button>
+
+                <div id="date"></div>
+
+                <div class="inputText">
+                    <ul id="inputList"></ul>
+                </div><!--//inputText-->
+            </div><!--//inputField-->
+        </div><!--//todo-->
+    </div><!--//todo_container-->
+    <script src="./js/date.js"></script>
+    <script src="./js/todo.js"></script>
+</body>
+
+</html>

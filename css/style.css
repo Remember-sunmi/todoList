@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+}
+
+/* clock */
+
+div#clock{
+    font-family: 'consola' ;
+    font-weight: 600;
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.smallText{
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+/* todo */
+
+div.todo-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+div.todo{
+    width: 512px;
+    height: 678px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+div.todo h1{
+    font-family: 'consola' ;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    color: #D72F2F;
+    padding-top: 20px;
+}
+
+div.todo h1 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+div.inputField {
+    width: 100%;
+    height: 100%;
+    padding-top: 32px;
+    text-align: center;
+    position: relative;
+}
+
+div.inputField input{
+    width: 462px;
+    height: 64px;
+    border: 2px solid #3473D1;
+    border-radius: 50px;
+    padding-left: 22px;
+    font-size: 16px;
+    font-family: 'pretendard';
+}
+
+div.inputField button#add-btn{
+    border-radius: 50px;
+    background-color: #3473D1;
+    color: #fff;
+    font-family: 'consola' ;
+    font-size: 18px;
+    position: absolute;
+    right: 22px;
+    top: 5;
+    padding: 21px 54px;
+}
+
+div#date{
+    font-family: 'pretendard';
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #3473D1;
+    margin-top: 40px;
+    text-align: left;
+    padding: 10px 0 10px 32px;
+    font-weight: 600;
+}
+
+div.inputText{
+    /* border: 5px solid rgb(9, 186, 192); */
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+div.inputText li{
+    padding: 20px;
+    text-align: left;
+    /* border: 3px solid saddlebrown; */
+    position: relative;
+    font-family: 'pretendard';
+    font-size: 16px;
+}
+
+button.delete_btn{
+    /* border: 1px solid black; */
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+}
